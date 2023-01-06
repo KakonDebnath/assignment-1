@@ -1,5 +1,52 @@
+/* Added Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 /* Common Style */
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Button Style */
+.btn {
+    background-color: #F15B22;
+    color: #fff;
+    border: 0;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+body {
+    max-width: 1600px;
+}
+
+/* Header Section Style 
+.........................
+Header Section Style */
+header {
+    background-image: url("../images/banner/banner1.png");
+    height: 808px;
+    padding: 85px 230px;
+}
+
+.header_text_container {
+    width: 470px;
+    margin-left: 660px;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.header_title {
+    font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+color: #151414;
+}
+
+.header_discription {
+    line-height: 26px;
+    color: #444343;
+    padding: 30px 0px 30px 10px;
 }

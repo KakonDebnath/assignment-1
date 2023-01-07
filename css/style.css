@@ -87,20 +87,22 @@ header {
 .failure_text {
     flex-basis: 40%;
 }
-.failure_text ul li{
+
+.failure_text ul li {
     font-size: 20px;
     line-height: 30px;
 }
 
-.color_icon{
+.color_icon {
     color: #12BEB9;
 }
 
 /* skill Section and Future Plan Section */
-.skills{
-    margin-top: 80px;
+.skills {
+    margin-top: 100px;
 }
-.skill_container{
+
+.skill_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,16 +121,19 @@ header {
     border-radius: 15px;
     text-align: center;
 }
-.skill_details img{
+
+.skill_details img {
     width: 93px;
     height: 93px;
 }
-.skill_title{
+
+.skill_title {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
 }
-.skill_description{
+
+.skill_description {
     font-size: 25px;
     font-weight: 505;
     color: #737273;
@@ -136,30 +141,33 @@ header {
 }
 
 /* For Plan */
-.plan{
-    margin-top: 50px;
+.plan {
+    margin-top: 80px;
     padding-top: 50px;
     background-color: beige;
     padding-left: 20px;
     padding-right: 20px;
 }
-.plan_container{
+
+.plan_container {
     gap: 4%;
     padding-bottom: 50px;
 }
-.plan_items{
+
+.plan_items {
     flex-basis: 23%;
 }
 
-.contact_section{
+.contact_section {
     padding: 60px;
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
-border-radius: 8px;
-background-repeat: no-repeat;
-color: #fff;
-margin-bottom: 130px;
+    background-image: linear-gradient(90deg, #F15B22, rgba(241, 91, 34, 0)), url("../images/watch.png");
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-bottom: 130px;
 }
-.contact_title{
+
+.contact_title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -167,11 +175,74 @@ margin-bottom: 130px;
     padding: 10px;
     border-radius: 15px;
 }
-.contact_btn{
+
+.contact_btn {
     background-color: #fff;
     color: #F15B22;
     border: 0;
     padding: 20px 35px;
     font-size: 20px;
     border-radius: 5px;
+}
+
+
+/* footer Section */
+footer{
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #fff;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 20%;
+}
+.address{
+    flex-basis: 50%;
+}
+.address h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.address p{
+    line-height: 26px;
+}
+.subscribe{
+    flex-basis: 35%;
+
+}
+.subscribe h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.subscribe input{
+    padding: 15px;
+    width: 80%;
+    font-size: 18px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.subscribe .btn_submit{
+    background-color: #fff;
+    color: #F15B22;
+    border: 0;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.follow_me{
+    margin-top: 30px;
+}
+.social_icon{
+    margin-top: 20px;
+}
+.social_icon a{
+    color: #fff;
+    padding-right: 15px;
+    font-size: 20px;
 }

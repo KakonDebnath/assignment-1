@@ -9,8 +9,8 @@
     list-style: none;
 }
 
-/* Common Button Style */
-.btn {
+/* All Button Style */
+.header_btn {
     background-color: #F15B22;
     color: #fff;
     border: 0;
@@ -19,14 +19,31 @@
     border-radius: 5px;
 }
 
+.contact_btn {
+    background-color: #fff;
+    color: #F15B22;
+    border: 0;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn_submit {
+    background-color: #fff;
+    color: #F15B22;
+    border: 0;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
 body {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-/* Header Section Style 
-.........................
-Header Section Style */
+/* Header Section Style  */
 header {
     background-image: url("../images/banner/banner1.png");
     height: 720px;
@@ -55,9 +72,9 @@ header {
     line-height: 47px;
     color: #151414;
     text-transform: capitalize;
-    border-left: 20px solid #b800ff;
+    border-left: 20px solid #F15B22;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .section_description {
@@ -158,6 +175,8 @@ header {
     flex-basis: 23%;
 }
 
+/* contact Section */
+
 .contact_section {
     padding: 60px;
     background-image: linear-gradient(90deg, #F15B22, rgba(241, 91, 34, 0)), url("../images/watch.png");
@@ -176,48 +195,46 @@ header {
     border-radius: 15px;
 }
 
-.contact_btn {
-    background-color: #fff;
-    color: #F15B22;
-    border: 0;
-    padding: 20px 35px;
-    font-size: 20px;
-    border-radius: 5px;
-}
 
 
 /* footer Section */
-footer{
+footer {
     padding: 130px 230px;
     background-color: #151414;
     color: #fff;
 }
-.footer_container{
+
+.footer_container {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     gap: 20%;
 }
-.address{
+
+.address {
     flex-basis: 50%;
 }
-.address h3{
+
+.address h3 {
     font-size: 45px;
     font-weight: 700;
 }
-.address p{
+
+.address p {
     line-height: 26px;
 }
-.subscribe{
+
+.subscribe {
     flex-basis: 35%;
 
 }
-.subscribe h3{
+
+.subscribe h3 {
     font-size: 25px;
     font-weight: 600;
     margin: 30px 0;
 }
-.subscribe input{
+
+.subscribe input {
     padding: 15px;
     width: 80%;
     font-size: 18px;
@@ -226,22 +243,17 @@ footer{
     border: 1px solid #fff;
     border-radius: 8px;
 }
-.subscribe .btn_submit{
-    background-color: #fff;
-    color: #F15B22;
-    border: 0;
-    padding: 20px 35px;
-    font-size: 20px;
-    border-radius: 5px;
-    font-weight: 700;
-}
-.follow_me{
+
+/* Social Icon Section */
+.follow_me {
     margin-top: 30px;
 }
-.social_icon{
+
+.social_icon {
     margin-top: 20px;
 }
-.social_icon a{
+
+.social_icon a {
     color: #fff;
     padding-right: 15px;
     font-size: 20px;

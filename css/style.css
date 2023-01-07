@@ -9,6 +9,11 @@
     list-style: none;
 }
 
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 /* All Button Style */
 .header_btn {
     background-color: #F15B22;
@@ -38,10 +43,6 @@
     font-weight: 700;
 }
 
-body {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
 /* Header Section Style  */
 header {
